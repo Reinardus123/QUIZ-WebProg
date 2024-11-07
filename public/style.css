@@ -1,0 +1,104 @@
+body{
+    width: 100vw;
+
+}
+
+.container-gambar {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    height: 600px;
+    overflow: hidden;
+}
+
+.container-gambar img{
+    display: flex;
+    width: auto;
+    height: 1000px;
+    object-fit: cover;
+    position: relative;
+    top: -300px;
+}
+
+.section{
+    max-width: 100vw;
+}
+.article{
+    background-color: rgb(220, 216, 216);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.article img{
+    width: 500px;
+    height: 200px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    border-radius: 200px;
+    object-fit: contain;
+}
+
+.article .text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+h4{
+    /* float: right; */
+    padding-right: 750px;
+    font-size: medium;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+h6{
+    font-size: small;
+}
+
+.button1{
+    display: flex;
+    position: relative;
+    /* right: 20px; */
+    margin-left: 650px;
+}
+
+.button1 button{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #041e42;
+}
+
+.button1 h1{
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+
+
+.button2{
+    display: flex;
+    /* justify-content: right; */
+    position: relative;
+    right: 50px;
+    margin-left: 700px;
+
+}
+
+.button2 button{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #041e42;
+}
+
+.button2 h1{
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+
+
